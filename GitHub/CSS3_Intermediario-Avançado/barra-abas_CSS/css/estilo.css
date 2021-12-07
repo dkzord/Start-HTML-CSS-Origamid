@@ -1,0 +1,46 @@
+/* Configuração de uma barra com abas */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  width: 720px;
+}
+
+ul li {
+  
+  float: left;
+  background: url(../image-barra-horizontal/aba-direita.png) no-repeat top right;
+
+}
+
+li a {
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  text-decoration: none;
+  background: url(../image-barra-horizontal/aba-esquerda.png) no-repeat top left;
+  color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+ul #atual {
+    background: url(../image-barra-horizontal/aba-direita-atual.png) no-repeat top right;
+}
+
+ul #atual a{
+    background: url(../image-barra-horizontal/aba-esquerda-atual.png) no-repeat top left;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}

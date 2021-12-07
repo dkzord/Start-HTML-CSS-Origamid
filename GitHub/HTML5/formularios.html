@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tela de Login</title>
+  </head>
+  <body>
+    <h2>Login</h2>
+    <form action="processo.php">
+      Login:<br />
+      <input type="text" name="login" />
+      <br />
+      Senha: <br />
+      <input type="password" name="senha" />
+      <br />
+      <input type="button" value="Entrar" />
+
+      <input type="submit" value="Esqueceu a senha?" />
+    </form>
+
+    <h2>Cadastre-se</h2>
+    <form>
+      Login:
+      <br />
+      <input type="text" name="login" />
+      <br />
+      Sexo:
+      <br />
+      <input type="radio" id="M" name="sexo" value="M" />
+      <label for="M">Male</label> <br />
+      <input type="radio" id="F" name="sexo" value="F" />
+      <label for="F">Female</label><br />
+      <input type="radio" id="O" name="sexo" value="O" />
+      <label for="O">Other</label> <br />
+      Interesse: <br />
+      <input type="checkbox" id="futebol" name="interesses" value="futebol" />
+      <label for="futebol">Futebol</label><br />
+      <input type="checkbox" id="sinuca" name="interesses" value="sinuca" />
+      <label for="sinuca">Sinuca</label><br />
+      <input type="checkbox" id="carnaval" name="interesses" value="carnaval" />
+      <label for="carnaval">Carnaval</label><br />
+      <input
+        type="checkbox"
+        id="poorparty"
+        name="interesses"
+        value="poorparty"
+      />
+      <label for="poorparty">PoorParty</label><br />
+      Estado: <br />
+      <select>
+        <option value="CE">CE</option>
+        <option value="SP">SP</option>
+        <option value="PB">PB</option> </select
+      ><br />
+      Observações: <br /><br />
+      <textarea></textarea><br>
+      <input type="submit" value="Cadastrar"/>
+    </form>
+  </body>
+</html>

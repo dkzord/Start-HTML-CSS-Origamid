@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: 1px solid red;
+}
+
+nav{
+    border: 1px solid green;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
+
+article{
+    background: orange;
+    margin: 20px 0px;
+}
+
+section{
+    border: 1px dotted #fff;
+    padding: 10px;
+}
+
+aside{
+    background: blue;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+footer{
+    background: #ccc;
+    padding: 10px;
+    margin: 20px 0px;
+}

@@ -1,0 +1,50 @@
+/* Barra de navegação horizontal. */
+
+ul#navegacao {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  /*  border: 1px solid red; */
+  width: 720px;
+  background: #159cb0 url(../image-barra-horizontal/fundo-horizontal.png)
+    repeat-x;
+  float: left;
+}
+
+ul#navegacao li {
+  float: left;
+  /* border: 1px solid red; */
+}
+
+ul#navegacao a {
+  display: block;
+  padding: 0 2em;
+  line-height: 2.2em;
+  text-decoration: none;
+  color: white;
+  /* border-left: 1px solid red; */
+  background: url(../image-barra-horizontal/divisor.png) repeat-y; /* Esse é o padrão mas poderia ter um left top depois do repeat-y */
+}
+
+ul#navegacao .primeiro a {
+  background: none;
+}
+
+ul#navegacao a:hover {
+  color: #085662;
+  background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servico #navegacao .servico a,
+#noticias #navegacao .noticias a,
+#contatos #navegacao .contatos a {
+  color: #085662;
+  background: #44cade;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}

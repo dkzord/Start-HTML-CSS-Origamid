@@ -1,0 +1,34 @@
+/*  Algum estados dos links
+    1 - Links não visitados: 
+    2 - Links visitados
+    3 - Links Hover, passa o cursor sobre o link
+    4 - Links ativos, quando clicka
+    Importante: Mantenha a ordem de formatação dos estados.
+*/
+
+
+a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* links não visitados */
+a:link{
+    color: #b9c941;
+}
+
+/* Links visitados */
+a:visited{
+    color: #b9c941;
+}
+
+/* Link Hover */
+a:hover{
+    color: #FFF;
+    background: #6d790f;
+}
+
+/* Link Ativos */
+a:active{
+    color: #e4f371;
+}

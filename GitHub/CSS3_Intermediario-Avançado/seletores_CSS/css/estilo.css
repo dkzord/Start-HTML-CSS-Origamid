@@ -1,0 +1,46 @@
+/* Seletor universal */
+*{
+/*     border: 1px solid red;
+    padding: 0px;  */
+    font-size: 1.5em;
+}
+
+/* Seletor de texto 
+h1{
+    color: green;
+}
+*/
+/* Seletor de classe */
+/* .verde{
+    color: green;
+}
+
+p.verde{
+    color: green;
+} */
+
+#cabecalho{
+    border: 1px solid red;
+}
+
+/* Seletor de filho */
+/* li>a{
+    color: red;
+    text-decoration: none;
+} */
+
+/* Seletor descendente */
+/* li a{
+    color: green;
+    text-decoration: none;
+}
+ */
+
+/* Seletor adjacente */
+/* h1+p{
+    color: purple;
+} */
+
+h1~p{
+    color: rebeccapurple;
+}

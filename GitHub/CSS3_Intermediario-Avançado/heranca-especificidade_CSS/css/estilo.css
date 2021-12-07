@@ -1,0 +1,35 @@
+/* Herança e Especificidade */
+/* 
+*{
+    border: 1px solid red;
+}
+
+body{
+    color: blue;
+     background: gray; 
+}*/
+/* 
+#page p{
+    color: blue !important;
+}
+
+#page p{
+    color: red;
+}
+ */
+
+ *{
+     color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+    color: green;
+}
+
+h2#amarelo{
+    color: yellow;
+}

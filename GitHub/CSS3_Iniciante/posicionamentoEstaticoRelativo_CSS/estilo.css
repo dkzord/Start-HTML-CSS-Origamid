@@ -1,0 +1,48 @@
+body{
+    background: #007FC7;
+}
+
+h1{
+    position: static;
+}
+
+p{
+    width: 400px;
+    /* margin: 0px; */
+    /* display: inline-block; */
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+    /* Propriedades de deslocamento que são top, right, bottom, left  */
+   /*  top: 20px;
+    left: 80px; */
+    bottom: -20px;
+}
+
+.fixo{
+    background: #f2f2f2;
+    position: absolute;
+    border: 1px solid red;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.absolute{
+    background: #f2f2f2;
+    position: absolute;
+    border: 1px solid red;
+    top: 80px;
+    right: 80px;
+}
+
+#conteiner{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+}

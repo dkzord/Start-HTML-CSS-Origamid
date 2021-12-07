@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#conteudo{
+    background: #dcdcdc;
+
+    height: 600px;
+    display: flex;
+    /* 
+    Valores da propriedade flex-direction;
+    row | row-reverse | colum | colum-reverse | initial| inherit;
+    */
+    flex-direction: row;
+    /* 
+    nowrap | wrap | wrap-reverse | initial | inherit; 
+    */
+    flex-wrap: nowrap;
+
+    /* 
+    flex-start | flex-end | center | space-between | space-around | initial | inherit;
+    */
+    justify-content: space-around;
+
+    /* 
+    stretch|center|flex-start|flex-end|baseline|initial|inherit;
+    */
+    align-items: baseline;
+}
+
+.item{
+
+    margin: 10px;
+    background: white;
+    border: 1px solid gray;
+    
+}
