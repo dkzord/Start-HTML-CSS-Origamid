@@ -111,4 +111,31 @@ if(('Gato' === 'gato') || (5 > 2)) {
 } else {
   console.log('Falso');
 } */
+/* 
+//Parâmetro
+function areaQuadrada(lado){
+  return lado * lado;
+}
+
+//console.log(areaQuadrada(2));
+
+function imc(peso, altura){
+  var imc = peso / (altura * altura);
+  return imc;
+}
+
+console.log(imc(80, 1.8)); //Argumento 
+
+
+function corFavorita(cor){
+  if(cor === 'azul'){
+    return 'deu azul'
+  } else if (cor === 'verde'){
+    return 'deu verde'
+  } else {
+    return 'deu qualquer cor'
+  }
+}
+
+addEventListener('click', function(){ console.log('oi!')}) */
 
