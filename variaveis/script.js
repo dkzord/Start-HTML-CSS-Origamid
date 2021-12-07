@@ -60,3 +60,55 @@ var pesoPorDois = numero / 2; // NaN (Not a Number)
 console.log(pesoPorDois);
  */
 
+
+/* 
+// Verifique se a sua idade é maior do que a de algum parente
+// Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
+var w = 27;
+var x = 30;
+
+if (w > x){
+  console.log('É maior (mais velho)');
+} else if (w === x){
+  console.log('É Igual (a idade)');
+} else {
+  console.log('É menor (a idade)');
+}
+
+// Qual valor é retornado na seguinte expressão?
+var expressao = (5 - 2) && (5 - ' ') && (5 - 2);
+
+console.log(expressao);
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome = 'Andre'; //true
+var idade = 28; //true
+var possuiDoutorado = false; //false
+var empregoFuturo; //false
+var dinheiroNaConta = 0; //false
+
+// Compare o total de habitantes do Brasil com China (valor em milhões)
+var brasil = 207; 
+var china = 1340;
+
+if(brasil === china){
+  console.log('Ambos são iguais');
+} else if(brasil > china){
+  console.log(`O Brasil é maior com ${brasil}`);
+} else {
+  console.log(`A China é maior com ${china}`);
+}
+
+// O que irá aparecer no console?
+if(('Gato' === 'gato') && (5 > 2)) {
+  console.log('Verdadeiro');
+} else {
+  console.log('Falso');
+}
+
+// O que irá aparecer no console?
+if(('Gato' === 'gato') || (5 > 2)) {
+  console.log('Gato' && 'Cão');
+} else {
+  console.log('Falso');
+} */
+
