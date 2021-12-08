@@ -155,11 +155,7 @@ console.log(terceiraIdade(75)); */
 
 // Crie uma função para verificar se um valor é Truthy
 function valorPositivo(valor){
-  if (valor >= 0){
-    return true;
-  } else { 
-    return false;
-  }
+  return !!valor;
 }
 
 console.log(valorPositivo(5));
