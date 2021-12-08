@@ -152,7 +152,7 @@ addEventListener('click', function(){ console.log('oi!')}) */
 console.log(terceiraIdade(75)); */
 
 // Exercícios Funções
-
+/* 
 // Crie uma função para verificar se um valor é Truthy
 function valorPositivo(valor){
   return !!valor;
@@ -199,14 +199,84 @@ console.log(tipoDado('pao'));
 addEventListener('scroll', function() { console.log('Fernando Cavalcanti')})
 
 // Corrija o erro abaixo
+var totalPaises = 193;
+
 function precisoVisitar(paisesVisitados) {
-  var totalPaises = 193;
   return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
 }
 
 function jaVisitei(paisesVisitados) {
-  var totalPaises = 193;
   return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
 }
 console.log(precisoVisitar(20));
 console.log(jaVisitei(20));
+ */
+
+// Exercícios Objetos
+
+/* 
+var pessoa = {
+  nome: 'Fernando',
+  sobrenome: 'Cavalcanti ',
+  idade: 27,
+}
+
+console.log(pessoa.nome)
+
+var quadrado = {
+  lados: 4,
+  area: function(lado){
+    return lado * lado;
+  },
+  parametro: function(lado){
+    return this.lados * lado;
+  }
+}
+
+console.log(quadrado.parametro(5));
+
+console.table(quadrado); */
+
+
+// Crie um objeto com os seus dados pessoais
+// Deve possuir pelo menos duas propriedades nome e sobrenome
+var dadosPessoais = {
+  nome: 'Fernando',
+  sobrenome: 'Cavalcanti',
+  idade: '27',
+  nomeCompleto: function (){
+    return `Meu nome é ${this.nome} ${this.sobrenome}`;
+  },
+}
+
+console.log(dadosPessoais.nome);
+// Crie um método no objeto anterior, que mostre o seu nome completo
+console.log(dadosPessoais.nomeCompleto());
+
+// Modifique o valor da propriedade preco para 3000
+var carro = {
+  preco: 1000,
+  portas: 4,
+  marca: 'Audi',
+}
+
+carro.preco = 3000;
+console.log(carro.preco);
+// Crie um objeto de um cachorro que represente um labrador,
+// preto com 10 anos, que late ao ver um homem
+
+var cachorro = {
+  raca: 'labrador',
+  cor: 'preto',
+  idade: 10,
+  latir(pessoa){
+    if(pessoa === 'homem'){
+      return 'Au aua auuuuuauuu';
+    } else {
+      return 'hmmmm...';
+    }
+  },
+}
+
+console.log(cachorro.latir('homem'));
+
